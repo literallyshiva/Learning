@@ -3,3 +3,6 @@ touch /home/ec2-user/day2/demo.txt
 
 # Set permissions
 chmod 764 /home/ec2-user/day2/demo.txt
+
+# To list the contents
+ls -lrth /home/ec2-user/day2
