@@ -7,4 +7,4 @@ for i in {1..5}; do
 done
 
 # Print the latest created top 5 files
-ls -lt | grep -E '\.txt|\.yml' | head -n 5
+ls -lt | grep -E '\.yml' | head -n 5
