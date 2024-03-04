@@ -1,0 +1,15 @@
+
+#To get the IP address of the domain guvi.in, you can use the nslookup command in your terminal or command prompt
+nslookup guvi.in
+
+#To find CPU/memory usage of your server
+
+top
+
+#To test the connectivity between two nodes
+
+ping 192.168.1.1
+
+#To check whether your port is open or not
+
+telnet guvi.com 9000
