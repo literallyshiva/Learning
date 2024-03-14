@@ -1,0 +1,17 @@
+#create directory
+mkdir my_scripts
+
+#creating files 
+cd my_scripts
+touch script1.sh script2.py
+
+#Convert the Local Directory into a Git Repository
+git init 
+
+#Link Local Repository to GitHub
+
+git remote add origin <GitHub repository URL>
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
